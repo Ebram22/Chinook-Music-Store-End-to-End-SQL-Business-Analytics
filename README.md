@@ -68,7 +68,7 @@ The analysis is based on the **Chinook Database**, which models a digital media 
 ├── Queries/
 │   ├── 01_Cohort_Analysis.sql
 │   ├── 02_Geographic_&_Basket.sql
-│   ├── 03_Product_&_Inventory.sql
+│   ├── 03_Tracks_Performance.sql
 │   ├── 04_Employee_Performance.sql
 │   └── 05_Pareto_&_Retention.sql
 └── README.md                    # Project documentation
