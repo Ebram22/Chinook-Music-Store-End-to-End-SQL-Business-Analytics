@@ -13,7 +13,7 @@ The analysis is based on the **Chinook Database**, which models a digital media 
 ## 🔍 Key Business Domains & Analytics Covered
 
 ### 1. Advanced Cohort & Retention Analysis
-**View SQL Query:**   [Cohort_Analysis.sql](./Queries/01_Cohort_Analysis.sql)
+**View SQL Query:**   [Cohort_Analysis](./Queries/01_Cohort_Analysis.sql)
 * **Business Objective:** Track long-term customer acquisition, engagement, and multi-year revenue retention.
 * **SQL Techniques Used:** Common Table Expressions (CTEs), Conditional Aggregation (`CASE WHEN`), `MIN()`, `GROUP BY`.
 * **Key Insight:** Identified initial cohort sizing per join year and evaluated recurring revenue generation across subsequent years.
@@ -21,7 +21,7 @@ The analysis is based on the **Chinook Database**, which models a digital media 
 ---
 
 ### 2. Geographic & Order Basket Analysis
-**View SQL Query:**   [Geographic_&_Basket.sql](./Queries/02_Geographic_&_Basket.sql)
+**View SQL Query:**   [Geographic_&_Basket](./Queries/02_Geographic_&_Basket.sql)
 * **Business Objective:** Analyze global sales distribution, average order value (AOV), and customer purchasing behaviors by basket size.
 * **SQL Techniques Used:** Multi-table `JOINs`, `COUNT(DISTINCT)`, Order Segmentation.
 * **Key Insight:** Segmented customer purchases into **Small (1–3 items)**, **Medium (4–9 items)**, and **Large (10+ items)** baskets to evaluate upsell potential.
@@ -29,7 +29,7 @@ The analysis is based on the **Chinook Database**, which models a digital media 
 ---
 
 ### 3. Tracks Performance (Dead Inventory)
-**View SQL Query:**   [Tracks_Performance.sql](./Queries/03_Tracks_Performance.sql)
+**View SQL Query:**   [Tracks_Performance](./Queries/03_Tracks_Performance.sql)
 * **Business Objective:** Uncover top-selling genres/tracks and identify non-performing items (**Dead Inventory**) tying up catalog space.
 * **SQL Techniques Used:** `LEFT JOIN`, Filtering Unmatched Records (`WHERE ... IS NULL`), Aggregation.
 * **Key Insight:** Differentiated high-velocity digital tracks from catalog items with zero historical sales.
@@ -37,7 +37,7 @@ The analysis is based on the **Chinook Database**, which models a digital media 
 ---
 
 ### 4. Employee Sales Performance & Organizational Hierarchy
-**View SQL Query:**   [Employee_Performance.sql](./Queries/04_Employee_Performance.sql)
+**View SQL Query:**   [Employee_Performance](./Queries/04_Employee_Performance.sql)
 * **Business Objective:** Measure sales representative efficiency and evaluate revenue attribution relative to management structures.
 * **SQL Techniques Used:** `Self-Join` on Employee reporting lines, `LEFT JOIN`, `COALESCE()`, Revenue per Customer calculation.
 * **Key Insight:** Computed total revenue generated per representative, assigned customer volume, and average revenue yield per assigned customer.
@@ -45,7 +45,7 @@ The analysis is based on the **Chinook Database**, which models a digital media 
 ---
 
 ### 5. Financial Concentration Risk & Customer Behavior
-**View SQL Query:**   [Pareto_&_Retention.sql](./Queries/5_Pareto_&_Retention.sql)
+**View SQL Query:**   [Pareto_&_Retention](./Queries/5_Pareto_&_Retention.sql)
 * **Business Objective:** Validate Pareto’s Principle (80/20 Rule) regarding revenue concentration and measure repeat purchase velocity.
 * **SQL Techniques Used:** Window Functions (`PERCENT_RANK()`), `HAVING` clause, Decimal/Float casting to prevent integer division truncations.
 * **Key Insights:**
