@@ -7,7 +7,7 @@ This project delivers a comprehensive business intelligence and performance anal
 
 ## 🗄️ Database Architecture
 The analysis is based on the **Chinook Database**, which models a digital media store, including tables for artists, albums, media tracks, invoices, customers, and employees.
-
+![Interactive Dashboard Demo](images/2.JPG)
 ---
 
 ## 🔍 Key Business Domains & Analytics Covered
