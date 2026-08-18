@@ -1,4 +1,4 @@
-# 🎵 Chinook Music Store – End-to-End SQL Business Analytics
+# 🎵 Chinook Music Store – SQL Business Analytics
 
 ## 📌 Executive Summary
 This project delivers a comprehensive business intelligence and performance analysis for the **Chinook Music Store** digital database using **Advanced SQL**. The primary objective is to solve real-world business challenges across customer retention, product performance, sales distribution, employee efficiency, and financial risk assessment.
