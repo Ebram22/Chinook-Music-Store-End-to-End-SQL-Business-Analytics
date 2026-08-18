@@ -13,6 +13,7 @@ The analysis is based on the **Chinook Database**, which models a digital media 
 ## 🔍 Key Business Domains & Analytics Covered
 
 ### 1. Advanced Cohort & Retention Analysis
+**View SQL Query:** [01_Cohort_Analysis.sql](./Queries/01_Cohort_Analysis.sql)
 * **Business Objective:** Track long-term customer acquisition, engagement, and multi-year revenue retention.
 * **SQL Techniques Used:** Common Table Expressions (CTEs), Conditional Aggregation (`CASE WHEN`), `MIN()`, `GROUP BY`.
 * **Key Insight:** Identified initial cohort sizing per join year and evaluated recurring revenue generation across subsequent years.
